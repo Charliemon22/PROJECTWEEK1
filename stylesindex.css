@@ -1,0 +1,55 @@
+body{
+    background-color: pink;
+}
+nav{
+    background-color:blanchedalmond ;
+    color: brown;
+    word-spacing: 35px;
+    text-align: center;
+}
+h1{
+    background-color: blueviolet;
+}
+marquee{
+    background-color: purple; 
+    height:40px;
+}
+hr{
+    border: 8px solid purple;
+}
+hr+p{
+    background-color: khaki;
+}
+hr~p{
+    padding: 10px;
+}
+h2{
+    text-align: center;
+}
+.just{
+    border: 8px solid red;
+}
+a{
+    background-color: blanchedalmond;
+    color: brown;
+}
+a:visited{
+    color:royalblue;
+}
+a:hover{
+    background-color: cornflowerblue;
+    font-size: large;
+    color: red;
+}
+:target{
+    background-color:aquamarine;
+}
+p[class]{
+    background-color: lawngreen;
+}
+li:first-child{
+    background-color: darkcyan;
+}
+li:last-child{
+    background-color: forestgreen;
+}
