@@ -1,0 +1,66 @@
+body{
+    background-color: teal;
+}
+nav{
+    background-color:aquamarine ;
+    color: aqua;
+    word-spacing: 35px;
+    text-align: center;
+}
+marquee{
+    background-color: aqua; 
+    height: 2.5rem;
+}
+hr{
+    border: 0.5rem solid aquamarine;
+}
+hr+p{
+    background-color: royalblue;
+}
+hr~p{
+    padding: 10px;
+}
+h2{
+    text-align: center;
+}
+.just{
+    border: 8px solid lightblue;
+}
+a{
+    background-color: aquamarine;
+}
+a:visited{
+    color:royalblue;
+}
+a:hover{
+    background-color: cornflowerblue;
+    font-size: large;
+    color: red;
+}
+:target{
+    background-color:aquamarine;
+}
+p[class]{
+    background-color: orange;
+}
+li:first-child{
+    background-color: beige;
+}
+li:last-child{
+    background-color: red;
+}
+hr+p::first-line{
+    color:whitesmoke
+}
+p:nth-of-type(5)::first-letter{
+    color: crimson;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    background-color: lightblue;
+}
+h5::before{
+    content:"\2706";
+    font-size: larger;
+    
+}
