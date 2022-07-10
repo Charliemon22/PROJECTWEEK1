@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  line-height: 1.3;
+  font-family: "Nunito", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 60px;
+  margin: 5px;
+}
+header {
+  margin: 5px 20px;
+}
+nav img {
+  width: 150px;
+}
+nav a {
+  height: 20px;
+}
+h3 {
+  color: black;
+}
+marquee {
+  background-color: red;
+  height: 2.5rem;
+  color: white;
+}
+section h2 {
+  margin-bottom: 50px;
+}
+main {
+  display: flex;
+  justify-content: space-around;
+}
+main div {
+  width: 350px;
+  border: 2px solid skyblue;
+  padding: 5px;
+  text-align: justify;
+  border-radius: 10px;
+  margin: 20px 10px;
+  transition-duration: 3s;
+  margin-bottom: 100px;
+}
+main div:first-child:hover {
+  background-color: red;
+  color: white;
+  transform: scale(1.2);
+}
+main b {
+  color: red;
+  text-decoration: underline;
+  margin: 10px 5px;
+}
+
+h2 {
+  text-align: center;
+}
+a {
+  color: black;
+  font-variant: small-caps;
+  text-decoration: none;
+  transition: all 3s;
+}
+a:hover {
+  background-color: red;
+  font-style: italic;
+  text-decoration: underline;
+}
+li:first-child {
+  text-decoration: underline;
+}
+li:last-child {
+  text-decoration: underline;
+}
+h5::before {
+  content: "\2706";
+  font-size: larger;
+}
+h3:first-child {
+  color: red;
+  font-size: 2.5rem;
+}
+.firstd {
+  text-decoration: none;
+  color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+aside {
+  float: right;
+  word-spacing: 15px;
+}
+
+aside a {
+  color: white;
+}
+aside a:hover {
+  text-decoration: underline;
+  color: white;
+}
+aside h1 {
+  font-size: xx-large;
+  color: white;
+}
+footer {
+  background-color: red;
+  border: 20px solid red;
+  margin: -7.8px;
+  color: white;
+  padding: 20px;
+}
+p > a {
+  color: red;
+}
